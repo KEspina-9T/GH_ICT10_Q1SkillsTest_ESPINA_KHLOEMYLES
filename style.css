@@ -1,0 +1,114 @@
+body {
+    color: #283618;
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+    background-color: #fefae0;
+}
+
+/*This is the style for the Navbar */
+.navbar {
+    background-color: #283618;
+}
+
+.nav-link {
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+    color: #f5ebe0;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: #606c38;
+}
+
+.nav-link.active {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #D4AF37;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* This is the style for the Title */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Emblema One", cursive;
+    font-size: 50px;
+    color: #283618;
+}
+
+/* Labels for menu items & inputs */
+label {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #283618;
+}
+
+.container {
+    background-color: #fff8dc;
+    border: solid;
+    border-color: #606c38;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    max-width: 450px;
+}
+
+/* This is the style for the Button */
+button {
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 10px;
+    background: #283618;
+    color: #fefae0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #606c38;
+}
+
+/* This is the style for the Output box */
+#output {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 15px;
+    color: #283618;
+    margin-top: 15px;
+    padding: 12px;
+    background: #fff;
+    border: solid;
+    border-color: #D4AF37;
+    border-radius: 10px;
+    width: 90%;
+
+}
+
+/* this is the style for the Footer */
+.footer {
+    background-color: #283618;
+    color: #fefae0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #dda15e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #fefae0;
+}
